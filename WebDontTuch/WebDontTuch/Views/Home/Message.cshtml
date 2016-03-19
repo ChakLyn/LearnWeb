@@ -1,0 +1,9 @@
+﻿@model WebDontTuch.Models.Message
+
+
+<div>
+<p>Me: @Model.Content</p>
+<p>Bot: @{
+    WriteLiteral(Model.RefList);
+}
+</div>

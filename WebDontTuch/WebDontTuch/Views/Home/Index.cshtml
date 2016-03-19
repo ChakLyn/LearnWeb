@@ -1,0 +1,21 @@
+﻿@model WebDontTuch.Models.Message
+@{
+    Layout = "~/Views/Shered/_Layout.cshtml";
+}
+
+
+<div id="Chat"></div>
+
+@using (Ajax.BeginForm("Index", new AjaxOptions()
+{
+    HttpMethod = "POST",
+    InsertionMode = InsertionMode.InsertAfter,
+    UpdateTargetId = "Chat"
+}))
+{
+
+    <input type="text" name="msg" />
+    <button type="submit">Enter</button>
+}
+        
+ 

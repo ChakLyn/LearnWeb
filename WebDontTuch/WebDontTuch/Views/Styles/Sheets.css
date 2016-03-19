@@ -1,0 +1,38 @@
+﻿#Chat{
+   border:2px solid black;
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   width:90%;
+   height:80%;
+   overflow-y:auto;
+   background-color:white;
+   color:black;
+   padding:2px 2px 2px 2px;
+}
+.Conteiner{
+   position:absolute;
+   height:100%;
+   width:100%;
+}
+
+input{
+    position:relative;
+    margin-left:4.7%;
+    margin-top:10px;
+    height:30px;
+    width:80%;
+    font-size:14px;
+}
+button{
+    width:10%;
+    height:5.5%;
+    background-color:lightpink;
+    border-color:pink;
+    color:deeppink;
+}
+body{
+    background-image:url('Images/cvetochki-tekstura.jpg');
+}
+form{
+    background-image:url('Images/cvetochki-tekstura.jpg');}
